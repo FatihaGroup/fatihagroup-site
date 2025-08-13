@@ -2,160 +2,157 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FATIHA GROUP - Accueil</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <h1>FATIHA GROUP</h1>
-    <p>"La Qualité, la Beauté, et l'Élégance à votre portée"</p>
-  </header>
-
-  <nav>
-    <a href="index.html">Accueil</a>
-    <a href="blog.html">Blog</a>
-    <a href="#contact">Contact</a>
-  </nav>
-
-  <div class="hero">
-    <h2>Bienvenue sur notre boutique en ligne</h2>
-    <p>Produits de beauté, vêtements, accessoires, et plus encore.</p>
-  </div>
-
-  <section class="section" id="contact">
-    <h2>Contact</h2>
-    <p>WhatsApp : +225 XX XX XX XX</p>
-    <p>Adresse : Yopougon, Usine Awa</p>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 FATIHA GROUP</p>
-  </footer>
-</body>
-</html>
-
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Fatihagroup</title>
-  <!-- Intégration de Bootstrap -->
+  <title>FATIHA GROUP - Accueil</title>
+  <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Animate.css (pour effets visuels) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
 
-  <!-- Barre de navigation -->
+  <!-- 🧭 Menu de navigation -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Fatihagroup</a>
+      <a class="navbar-brand fw-bold" href="#">FATIHA GROUP</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a class="nav-link" href="#">Accueil</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Boutique</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="#boutique">Boutique</a></li>
+          <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <!-- Section d’accueil -->
+  <!-- 🎨 Bannière d’accueil -->
   <header class="bg-primary text-white text-center py-5">
-    <h1>Bienvenue chez Fatihagroup</h1>
-    <p>Produits inspirés, histoires partagées</p>
+    <h1 class="animate__animated animate__fadeInDown">Bienvenue chez FATIHA GROUP</h1>
+    <p class="animate__animated animate__fadeInUp">La Qualité, la Beauté, et l'Élégance à votre portée</p>
   </header>
 
-  <!-- Section produits -->
-  <section class="container my-5">
-    <h2 class="text-center mb-4">Nos produits phares</h2>
-    <div class="row">
-      <div class="col-md-4">
-        <div class="card">
-          <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Produit 1">
+  <!-- 🛍️ Boutique -->
+  <section id="boutique" class="container my-5">
+    <h2 class="text-center mb-4">Notre Boutique</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+
+      <!-- Produit 1 -->
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Robe Ryma">
           <div class="card-body">
-            <h5 class="card-title">Produit 1</h5>
-            <p class="card-text">Description du produit.</p>
-            <a href="#" class="btn btn-primary">Ajouter au panier</a>
+            <h5 class="card-title">Robe “Ryma”</h5>
+            <p class="card-text">Élégante, douce et pleine de sens. Une pièce phare pour les femmes qui aiment profondément.</p>
+            <p class="text-success fw-bold">25 000 FCFA</p>
+            <a href="ryma.html" class="btn btn-outline-primary">Voir la fiche</a>
           </div>
         </div>
       </div>
-      <!-- Tu peux dupliquer cette colonne pour plus de produits -->
+
+      <!-- Produit 2 -->
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Accessoire">
+          <div class="card-body">
+            <h5 class="card-title">Collier “Sira”</h5>
+            <p class="card-text">Un bijou artisanal qui ajoute une touche de lumière à chaque tenue.</p>
+            <p class="text-success fw-bold">8 500 FCFA</p>
+            <a href="#" class="btn btn-outline-primary">Ajouter au panier</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Produit 3 -->
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Tenue">
+          <div class="card-body">
+            <h5 class="card-title">Tenue “Nafissa”</h5>
+            <p class="card-text">Confort et élégance réunis dans une tenue pensée pour les journées inspirées.</p>
+            <p class="text-success fw-bold">18 000 FCFA</p>
+            <a href="#" class="btn btn-outline-primary">Ajouter au panier</a>
+          </div>
+        </div>
+      </div>
+
     </div>
   </section>
 
-  <!-- Section blog -->
-  <section class="container my-5">
-    <h2 class="text-center mb-4">Derniers articles</h2>
-    <div class="row">
-      <div class="col-md-6">
-        <div class="card">
+  <!-- 📝 Blog -->
+  <section id="blog" class="container my-5">
+    <h2 class="text-center mb-4">Le Blog de Fatihagroup</h2>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+
+      <!-- Article 1 -->
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://via.placeholder.com/600x300" class="card-img-top" alt="Inspiration artisanale">
           <div class="card-body">
-            <h5 class="card-title">Titre de l’article</h5>
-            <p class="card-text">Résumé de l’article...</p>
+            <h5 class="card-title">L’Artisanat comme Héritage</h5>
+            <p class="card-text">Chaque pièce que nous créons est une ode à nos racines. Derrière chaque motif, il y a une mémoire, une main qui façonne avec amour.</p>
             <a href="#" class="btn btn-outline-primary">Lire plus</a>
           </div>
         </div>
       </div>
+
+      <!-- Article 2 -->
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://via.placeholder.com/600x300" class="card-img-top" alt="Conseils de style">
+          <div class="card-body">
+            <h5 class="card-title">Comment porter nos créations avec élégance</h5>
+            <p class="card-text">Des idées simples pour sublimer vos tenues avec nos pièces artisanales. L’élégance, c’est aussi une question d’attitude.</p>
+            <a href="#" class="btn btn-outline-primary">Lire plus</a>
+          </div>
+        </div>
+      </div>
+
     </div>
   </section>
 
-  <!-- Pied de page -->
+  <!-- 📞 Contact -->
+  <section id="contact" class="container my-5">
+    <h2 class="text-center mb-4">Contactez-nous</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Nom</label>
+            <input type="text" class="form-control" id="name" placeholder="Votre nom">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Votre email">
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" rows="4" placeholder="Votre message..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Envoyer</button>
+        </form>
+      </div>
+      <div class="col-md-6">
+        <h5 class="mb-3">Nos coordonnées</h5>
+        <p><strong>WhatsApp :</strong> +225 XX XX XX XX</p>
+        <p><strong>Adresse :</strong> Yopougon, Usine Awa</p>
+        <p><strong>Instagram :</strong> @fatihagroup</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 🧦 Pied de page -->
   <footer class="bg-dark text-white text-center py-3">
-    <p>&copy; 2025 Fatihagroup. Tous droits réservés.</p>
+    <p>&copy; 2025 FATIHA GROUP. Tous droits réservés.</p>
   </footer>
 
-  <!-- Script Bootstrap -->
+  <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-<section class="container my-5">
-  <h2 class="text-center mb-4">Notre Boutique</h2>
-  <div class="row row-cols-1 row-cols-md-3 g-4">
 
-    <!-- Produit 1 -->
-    <div class="col">
-      <div class="card h-100">
-        <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Produit 1">
-        <div class="card-body">
-          <h5 class="card-title">Nom du produit 1</h5>
-          <p class="card-text">Description courte du produit. Idéal pour les clients qui cherchent qualité et style.</p>
-          <p class="text-success fw-bold">15 000 FCFA</p>
-          <a href="#" class="btn btn-primary">Ajouter au panier</a>
-        </div>
-      </div>
-    </div>
 
-    <!-- Produit 2 -->
-    <div class="col">
-      <div class="card h-100">
-        <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Produit 2">
-        <div class="card-body">
-          <h5 class="card-title">Nom du produit 2</h5>
-          <p class="card-text">Un produit qui allie élégance et fonctionnalité. Parfait pour les esprits créatifs.</p>
-          <p class="text-success fw-bold">22 000 FCFA</p>
-          <a href="#" class="btn btn-primary">Ajouter au panier</a>
-        </div>
-      </div>
-    </div>
-
-    <!-- Produit 3 -->
-    <div class="col">
-      <div class="card h-100">
-        <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Produit 3">
-        <div class="card-body">
-          <h5 class="card-title">Nom du produit 3</h5>
-          <p class="card-text">Un incontournable de la collection Fatihagroup. Style, confort et authenticité.</p>
-          <p class="text-success fw-bold">18 500 FCFA</p>
-          <a href="#" class="btn btn-primary">Ajouter au panier</a>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</section>
 
