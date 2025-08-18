@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FATIHA GROUP - Boutique en Ligne</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fff;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(45deg, #ff6b6b, #feca57, #48dbfb, #1dd1a1);
+      padding: 20px;
+      color: white;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background: #eee;
+      padding: 10px 0;
+    }
+    nav a {
+      text-decoration: none;
+      color: #444;
+      font-weight: bold;
+    }
+    .hero {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+      padding: 40px;
+    }
+    .hero-text {
+      max-width: 500px;
+    }
+    .hero img {
+      max-width: 300px;
+    }
+    .shop-now {
+      background: #ff4081;
+      color: white;
+      padding: 15px 30px;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .section {
+      padding: 40px;
+      text-align: center;
+    }
+    .products {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .product {
+      border: 1px solid #ddd;
+      padding: 20px;
+      border-radius: 10px;
+      width: 200px;
+    }
+    .product img {
+      width: 100%;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    .whatsapp-btn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25d366;
+      color: white;
+      border-radius: 50%;
+      padding: 15px;
+      font-size: 24px;
+    }
+    .dashboard {
+      background: #f4f4f4;
+      padding: 20px;
+      margin: 20px;
+      border-radius: 10px;
+    }
+    .blog, .delivery, .catalogue {
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>FATIHA GROUP</h1>
+    <p>"La Qualité, la Beauté, et l'Élégance à votre portée"</p>
+  </header>
+
+  <nav>
+    <a href="#">Accueil</a>
+    <a href="#shop">Catalogue</a>
+    <a href="#delivery">Livraison</a>
+    <a href="#blog">Blog</a>
+    <a href="#dashboard">Tableau de Bord</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero">
+    <div class="hero-text">
+      <h2>Boutique multisectorielle en ligne</h2>
+      <p>Vêtements, parfums, produits de beauté, produits de ménage, accessoires et bien plus...</p>
+      <a href="#shop" class="shop-now">Achetez maintenant</a>
+    </div>
+    <img src="https://via.placeholder.com/300x300" alt="Produits FATIHA" />
+  </div>
+
+  <section class="section" id="shop">
+    <h2>Catalogue Produits</h2>
+    <div class="products">
+      <div class="product">
+        <img src="https://via.placeholder.com/200x200" alt="Produit 1">
+        <p>Parfum Élite</p>
+        <button>Ajouter au panier</button>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/200x200" alt="Produit 2">
+        <p>Ensemble Beauté</p>
+        <button>Ajouter au panier</button>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/200x200" alt="Produit 3">
+        <p>T-shirt tendance</p>
+        <button>Ajouter au panier</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="delivery">
+    <h2>Système de Livraison</h2>
+    <p>Nous livrons partout en Côte d'Ivoire. Les frais sont à la charge du client selon la zone.</p>
+  </section>
+
+  <section class="section blog" id="blog">
+    <h2>Blog Beauté & Lifestyle</h2>
+    <p>Des conseils beauté, mode, hygiène et nouveautés produits à découvrir chaque semaine.</p>
+  </section>
+
+  <section class="section dashboard" id="dashboard">
+    <h2>Tableau de Bord Visuel</h2>
+    <p><strong>Commandes du jour :</strong> 24</p>
+    <p><strong>Produits en stock :</strong> 380</p>
+    <p><strong>Ventes ce mois :</strong> 1 275 000 FCFA</p>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Contact</h2>
+    <p>📞 WhatsApp : +225 XX XX XX XX</p>
+    <p>📍 Adresse : Yopougon, Usine Awa</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 FATIHA GROUP - Tous droits réservés</p>
+  </footer>
+
+  <a href="https://wa.me/225xxxxxxxxx" class="whatsapp-btn" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+</body>
+</html>
